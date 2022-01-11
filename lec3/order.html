@@ -1,0 +1,94 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mango/orderpage</title>
+    </head>
+    <body>
+        <h2>Clothing Order Form</h2><hr>
+        <form action="" method="post">
+            <p>
+                <label>Search: 
+                    <input type="search" placeholder="search query">
+                </label>
+            </p>
+            <p> <strong> Requested Delivery Date:</strong>  <br><br>
+                <label>Date:
+                    <input type="date">
+                </label>
+                <label> Select a time:
+                    <input type="time">
+                </label>
+            </p>
+             <h3 style="color: crimson;">Order Details</h3>
+            <p>
+                <label> Order options:
+                    <select name="ordercloth">
+                        <option></option>
+                        <option>  Jacket </option>
+                        <option>  Sweater </option>
+                        <option>  Jeans </option>
+                        <option>  Scarf </option>
+                        <option>  T-shirt </option>
+                        <option>  Gym clothes </option>
+                        <option>  Shorts </option>
+                        <option>  Dress </option>
+                    </select>
+                </label>
+                <label>Size: 
+                  <select name="size">
+                      <option> </option>
+                      <option>XS</option>
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                  </select>
+                </label>
+            </p>
+            
+            <p>
+                <label> Choose a color: <br>
+                    <input type="color" autofocus>
+                </label>
+            </p>
+           <p>
+               <label>Quantity:
+                   <input type="number" min="0" max="10" step="1">
+               </label>
+           </p>
+             <p>
+                 <label>E-mail Address:
+                     <input type="email" placeholder="mango@gmail.com" required>
+                 </label>
+             </p>
+             <p>
+                 <label>URL:
+                     <input type="url" placeholder="http://www.mango.com">
+                 </label>
+             </p>
+             <p>
+                 <label>
+                    <textarea name="comments" cols="40" rows="10">Special Requests:</textarea>
+                 </label>
+             </p>
+            <p>
+                <input type="submit" value="submit" style="background-color: royalblue;">
+                <input type="reset" value="Clear" style="background-color: tan;">
+            </p>
+        </form>
+        <p>
+            Reminders:
+            <ul>
+                <li>
+                    We'll contact you within 24-48 hours after submitting this form for confirmation.
+                </li>
+                <li>
+                    If you have any questions, call us at (123) 234-7878 
+                </li>
+            </ul>
+          
+           
+        </p>
+    </body>
+</html>

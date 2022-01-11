@@ -1,0 +1,14 @@
+p{
+    margin: 0;
+}
+.error{
+    color: red;
+}
+p.head{
+    font-weight: 700;
+    margin-top: 10px;
+}
+label{
+    width: 5em;
+    float: left;
+}
